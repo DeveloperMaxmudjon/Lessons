@@ -1,0 +1,91 @@
+p {
+    font-size: 30px;
+    /* text-decoration-color: green;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px; */
+    text-decoration: 2px wavy green underline;
+    /* 1(px) 2(korinishi) 3(rangi) 4(joylanishi) */
+
+
+
+
+    /* Xamma sozlarni kotta xarifdan yozadi */
+    /* text-transform: uppercase;  */
+
+    /* xamma sozlarni kichkina xarifdan yozadi */
+    /* text-transform: lowercase; */
+
+    /* xamma birinchi qarifni kottadan yozib ketadi */
+    text-transform: capitalize; 
+
+
+    text-align: left;
+    /* Abzats tashlaberadi */
+    text-indent: 50px;
+    
+    /* text qatori orasini ochadi */
+    line-height: 40px;
+    /* xariflarni orasini ochadi */
+    letter-spacing: 3px;
+    /* Sozlarni orasini ochadi */
+    word-spacing: 4px;
+
+    font-style: italic;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+
+
+ol li {
+    border: 1px solid black;
+
+    /* List stylini ozgartadi (*)nuqtasini */
+    list-style-type: circle;
+
+    /*  */
+    list-style-position: inside;
+}
+
+ul {
+    width: 50px;
+
+    /* Listni stylini rasimga ozgartoradi */
+    list-style-image: url(star\ \(1\).png);
+}
+
+h1::after {
+    /* Css tarafida html ga text qoshadi */
+    content: "BEAST";
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    opacity: 0.7;
+    border: 2px white solid;
+    
+    
+    /* display: none; */
+
+    /* display inlayn width va hight ni 0 qiladi */
+
+    display: inline-block;
+
+    
+}
+
+.card {
+    display: flex;
+}
+
+.card div {
+    padding: 40px;
+    background-color: red;
+    border: 3px solid white;
+    border-radius: 30px;
+}
