@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parent-card {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: 250px 200px 200px 400px;
+}
+
+.card {
+    padding: 30px;
+    background-color: black;
+    border: 1px white solid;
+    font-size: 30px;
+    color: white;
+}
+
+.a {
+    grid-row: 1 / span 2;
+}
+
+.b {
+    grid-column-start: 3;
+    grid-row: 2 / span 2;
+}
+
+.c {
+    grid-column: 2 / span 2;
+}

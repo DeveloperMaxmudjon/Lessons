@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.parent-card {
+    display: grid;
+    grid-template-columns: 350px 500px repeat(2, 175px) 274px 45px;
+    grid-template-rows: 300px 429px;
+}
+
+.card {
+    background-color: black;
+    border: 1px white solid;
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.line1 {
+    grid-column-start: 4 ;
+    grid-row-start: 1;
+    grid-row-end:3 ;
+    background-color: blue;
+}
+
+.line2 {
+    grid-column-start: 5 ;
+    grid-row-start: 1;
+    grid-row-end:3 ;
+    background-color: blue;
+}
+
+.line3 {
+    grid-column-start: 6 ;
+    grid-row-start: 1;
+    grid-row-end:3 ;
+    background-color: blue;
+}
+
+.product {
+    grid-column:2 / span 2;
+    background-color: red;
+}
