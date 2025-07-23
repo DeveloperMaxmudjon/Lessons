@@ -1,0 +1,78 @@
+.card {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border: 2px solid white;
+    font-size: 30px;
+    color: white;
+}
+
+header {
+    width: 100%;
+    background-color: red;
+    position: sticky;
+    top: 200px;
+}
+
+footer {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background-color: blue;
+}
+
+.parent-card {
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: end; */
+    flex-direction: row-reverse;
+
+}
+
+.parent-card div {
+    flex-grow: 1;
+}
+
+.box-5 {
+    order: 5;
+    flex-grow: 2;
+}
+
+.box-2 {
+    order: 2;
+    flex-grow: 1;
+}
+
+.box-7 {
+    order: 7;
+    flex-grow: 4;
+}
+
+.container {
+    display: flex;
+    border: 3px solid black;
+    color: white;
+    padding: 50px;
+}
+
+.home {
+    background-color: red;
+    /* flex: 1; */
+    flex-grow: 3;
+    flex-shrink: 1;
+    flex-basis: 100px;
+}
+
+.logout {
+    background-color: blue;
+    /* flex: 1 1 0; */
+    flex-grow: 2;
+    flex-shrink: 2;
+    flex-basis: 100px;
+}

@@ -1,0 +1,23 @@
+.parent-card {
+    /* column-count: 3; */
+    column-width: 250px;
+    column-rule: 8px solid yellow;
+}
+
+.card {
+    padding: 50px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border:  1px white solid;
+}
+
+.card2 {
+  column-count: 3;
+
+  p {
+    padding: 30px;
+    background-color: #bbbbbb;
+    break-inside: avoid;
+  }
+}
