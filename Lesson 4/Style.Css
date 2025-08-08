@@ -10,7 +10,10 @@
     color: white;
     font-size: 30px;
     border:  1px white solid;
+    column-span: all;
+    white-space: ;
 }
+
 
 .card2 {
   column-count: 3;
