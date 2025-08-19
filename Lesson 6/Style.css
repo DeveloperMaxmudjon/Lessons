@@ -40,4 +40,6 @@
 
 h1 {
     text-shadow: 3px 3px 10px green;
+    background-color: blue;
+    padding: 10px 20px 30px 40px;
 }
